@@ -1,3 +1,11 @@
+/*
+    这一个文件不够的，按这个步骤：
+        1、本仓库中，切换到main分支
+        2、可以看到全部的项目目录，整个拉取到本地
+        3、配置好路径（inputFilePath、outputFilePath）后，右键运行main函数即可
+    
+*/
+
 package org.toys.client;
 
 import org.apache.poi.ss.SpreadsheetVersion;
