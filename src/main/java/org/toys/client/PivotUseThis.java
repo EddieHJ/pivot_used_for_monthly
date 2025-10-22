@@ -16,6 +16,9 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
+// Teambition导出字段必须为如下，否则Pivot生成回报错：
+// 任务ID	标题	备注	执行者	优先级	紧急程度	影响级	事件来源	联系人	创建者	单量	Jira工单	组织	事件类型	报单时间	完成时间	是否完成	借助伙伴资源	创建时间（19个字段）
+
 public class PivotUseThis {
     public static void main(String[] args) {
 //        String inputFilePath = "C:\\Users\\Admin\\Desktop\\Biweekly\\origin.xlsx";
