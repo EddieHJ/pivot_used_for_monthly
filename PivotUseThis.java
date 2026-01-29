@@ -1,7 +1,8 @@
 /*
     这一个文件不够的，按这个步骤：
         1、本仓库中，切换到master分支
-        2、可以看到全部的项目目录，整个拉取到本地
+        2、可以看到全部的项目目录，整个拉取到本地(git clone -b master https://github.com/EddieHJ/pivot_used_for_monthly.git
+)
         3、配置好路径（inputFilePath、outputFilePath）后，右键运行main函数即可
     
 */
@@ -230,3 +231,4 @@ public class PivotUseThis {
         pivotTable.addColumnLabel(DataConsolidateFunction.AVERAGE, avgColumn, "Avg of Lead Time");
     }
 }
+
